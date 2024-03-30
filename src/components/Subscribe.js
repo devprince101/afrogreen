@@ -34,18 +34,7 @@ function Newsletter() {
           className="myInput"
         />
         <button
-          type="submit"
-          style={{
-            margin: "10px",
-            padding: "10px",
-            backgroundColor: "#0B4206",
-            border: "none",
-            color: "#965B0E",
-            fontSize: "16px",
-            borderRadius: "5px",
-            cursor: "pointer",
-          }}
-        >
+          type="submit" className="btn2">
           Subscribe
         </button>
       </form>

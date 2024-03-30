@@ -1,99 +1,101 @@
-.become {
-    width: 100%;
-    position: relative;
-    margin: 0 auto;
-    padding: 1rem 0;
-}
-.behead {
-    font-size: xx-large;
-    color: #0B4206;
-    font-weight: 700;
-    text-align: center;
-}
-.smowra {
-    width: 90%;
-    margin: 0 auto;
-    text-align: center;
-}
-.bewrapper {
-    width: 90%;
-    padding: .5rem;
-    position: relative;
-    margin: 0 auto;
-    text-align: center;
-}
-.small {
-    color: #965B0E;
-    font-size: larger;
-    position: relative;
-}
-.beule {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding: 5px;
-    margin: 0 auto;
-}
-.beli {
-    display: block;
-    width: 100%;
-    padding: 0;
-    position: relative;
-    margin: .5rem 0;
-}
-.beima {
-    width: 90%;
-    margin: 0 auto;
-    border-radius: 10px;
-    position: relative;
-    border: 1px solid #0B4206;
-}
-.before {
-    color: #965B0E;
-    font-size: larger;
-    font-weight: 700;
-    position: relative;
-}
-.beli p {
-    color: #0B4206;
-    font-weight: 500;
-    font-size: large;
-    position: relative;
-}
-.belink {
-    width: 90%;
-    margin: 0 auto;
-    position: relative;
-    padding: 10px;
-    text-align: center;
-}
-.bebut {
-    padding: 9px;
-    border: none;
-    border-radius: 5px;
-    position: relative;
-    background-color: transparent;
-    font-size: larger;
-}
-.bebut span {
-    color: #0B4206;
-    font-weight: 700;
-    margin-right: 5px;
-}
-.bebut i {
-    color: #965B0E;
-    font-weight: 900;
-}
-.cropsdetailslink {
-    color: #67EE26;
-    padding: 10px 15px;
-    margin: 1rem 0;
-    background-color: #965B0E;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: larger;
-    border-radius: 5px;
+@media  screen and (max-width:768px) {
+    .become {
+        width: 100%;
+        position: relative;
+        margin: 0 auto;
+        padding: 1rem 0;
+    }
+    .behead {
+        font-size: xx-large;
+        color: #0B4206;
+        font-weight: 700;
+        text-align: center;
+    }
+    .smowra {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .bewrapper {
+        width: 90%;
+        padding: .5rem;
+        position: relative;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .small {
+        color: #965B0E;
+        font-size: larger;
+        position: relative;
+    }
+    .beule {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 5px;
+        margin: 0 auto;
+    }
+    .beli {
+        display: block;
+        width: 100%;
+        padding: 0;
+        position: relative;
+        margin: .5rem 0;
+    }
+    .beima {
+        width: 90%;
+        margin: 0 auto;
+        border-radius: 10px;
+        position: relative;
+        border: 1px solid #0B4206;
+    }
+    .before {
+        color: #965B0E;
+        font-size: larger;
+        font-weight: 700;
+        position: relative;
+    }
+    .beli p {
+        color: #0B4206;
+        font-weight: 500;
+        font-size: large;
+        position: relative;
+    }
+    .belink {
+        width: 90%;
+        margin: 0 auto;
+        position: relative;
+        padding: 10px;
+        text-align: center;
+    }
+    .bebut {
+        padding: 9px;
+        border: none;
+        border-radius: 5px;
+        position: relative;
+        background-color: transparent;
+        font-size: larger;
+    }
+    .bebut span {
+        color: #0B4206;
+        font-weight: 700;
+        margin-right: 5px;
+    }
+    .bebut i {
+        color: #965B0E;
+        font-weight: 900;
+    }
+    .cropsdetailslink {
+        color: #67EE26;
+        padding: 10px 15px;
+        margin: 1rem 0;
+        background-color: #965B0E;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: larger;
+        border-radius: 5px;
+    }
 }
