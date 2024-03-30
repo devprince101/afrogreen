@@ -1,0 +1,87 @@
+#mission {
+    width: 100%;
+    padding:1rem 0;
+    position: relative;
+    text-align: center;
+    background-color: #67EE26;
+    margin: 0 auto;
+}
+.micon {
+    width: 90%;
+    padding: .5rem 0;
+    position: relative;
+    margin: 0 auto;
+}
+.micon p {
+    font-size: larger;
+    color: #965B0E;
+}
+.mistrong {
+    font-size: 2.5rem;
+    color: #965B0E;
+}
+.mihead1 {
+    font-size: xx-large;
+    color:#67EE26;
+    font-weight: 700;
+    position: relative;
+}
+.mihead {
+    font-size: xx-large;
+    color:#965B0E;
+    font-weight: 700;
+    position: relative;
+}
+.miwrapper1 {
+    background-color: #0B4206;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    padding: 10px 0;
+}
+.miwrapper {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.miule {
+    list-style: none;
+    display: block;
+    width: 100%;
+    padding:0 0 .5rem 0;
+    margin: 0 auto;
+}
+.miule li {
+    padding: 10px 0;
+    font-size: larger;
+    font-weight: 600;
+    color: #0B4206;
+}
+.mismall {
+    padding: .5rem 0 1rem 0;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+.mismall small {
+    font-size: medium;
+    font-weight: 500;
+    color: #965B0E;
+    position: relative;
+}
+.mibutton {
+    background-color: #0B4206;
+    padding: 10px 15px;
+    color: #67EE26;
+    border: none;
+    font-size: large;
+    border-radius: 5px;
+}
+.mibutton span {
+    margin-right: 5px;
+}
