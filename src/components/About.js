@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import FooterSection from './FooterSection'
 import './styles/become.css'
+import Approach from './Approach'
 
 function About() {
   return (
@@ -58,6 +59,7 @@ function About() {
              </div>
           </div>
       </section>
+      <Approach/>
       <FooterSection/>
     </>
   )
