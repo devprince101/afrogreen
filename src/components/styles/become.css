@@ -11,11 +11,30 @@
         font-weight: 700;
         text-align: center;
     }
+    .vision {
+        color: #965B0E;
+        font-size: xx-large;
+        font-weight: 700;
+        text-align: center;
+    }
+    .green {
+        font-size: large;
+        color: #0B4206;
+        font-weight: 700;
+        text-align: center;
+    }
+    .brown {
+        font-size: large;
+        color: #965B0E;
+        font-weight: 700;
+        text-align: center;
+    }
     .smowra {
         width: 90%;
         margin: 0 auto;
         text-align: center;
     }
+
     .bewrapper {
         width: 90%;
         padding: .5rem;
@@ -25,6 +44,11 @@
     }
     .small {
         color: #965B0E;
+        font-size: larger;
+        position: relative;
+    }
+    .smallgreen {
+        color: #0B4206;
         font-size: larger;
         position: relative;
     }

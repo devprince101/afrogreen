@@ -4,6 +4,12 @@ import Logo from '../logo.svg';
 import './styles/Navbar.css';
 
 function Navbar() {
+    const showNavbar = () => {
+        document.body.classList.toggle('togllednav');
+    }
+    const hideNavbar = () => {
+        document.body.classList.remove('togllednav');
+    }
   return (
     <nav>
         <div className='navbar'>
@@ -13,23 +19,23 @@ function Navbar() {
                 </Link>
             </div>
             <ul className='jawrapper'>
-                <li>
+                <li onClick={hideNavbar}>
                     <NavLink to="/">
                         Home
                     </NavLink>
                 </li>
-                <li>
+                <li onClick={hideNavbar}>
                     <NavLink to="/about">
                         about us
                     </NavLink>
                 </li>
-                <li>
+                <li onClick={hideNavbar}>
                     <NavLink to="/contact_us">
                         contact us
                     </NavLink>
                 </li>
             </ul>
-            <button className='btn'>
+            <button onClick={showNavbar} className='btn'>
                 <div className='hamburger'/>
             </button>
         </div>
