@@ -9,16 +9,16 @@ function Mission() {
             <h2 className='mihead'>Join us on our journey to:</h2>
             <div className='miwrapper'>
                 <ul className='miule'>
-                    <li>
+                    <li className='mili'>
                         Ensure food security for Africa's growing population.
                     </li>
-                    <li>
+                    <li className='mili'>
                         Protect the environment through sustainable farming tech
                     </li>
-                    <li>
+                    <li className='mili'>
                         Empower local communities by supporting smallholder farmers.  
                     </li>
-                    <li>
+                    <li className='mili'>
                         Celebrate the unique flavors of African cuisine.
                     </li>
                 </ul>

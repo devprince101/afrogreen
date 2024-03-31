@@ -1,3 +1,205 @@
+.explore {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    background-color: #965B0E;
+}
+.become {
+    width: 100%;
+    padding: 1rem 0;
+    position: relative;
+    margin: 0;
+}
+#about {
+    width: 100%;
+    padding:1rem 0;
+    margin: 0;
+    min-height: 90vh;
+    position: relative;
+    background-color: #965B0E;
+    animation-name: z-watch;
+    animation-duration: 4s;
+    animation-delay: 250ms;
+}
+@keyframes z-watch {
+    from {
+        transform: rotate(180deg);
+        width: 10px;
+        margin: 0 auto;
+        border-radius: 50%;
+        opacity: 0;
+        z-index: -10;
+    }
+    to {
+        transform: rotate(0deg);
+        width: 100%;
+        margin: 0 auto;
+        opacity: 1;
+        z-index: 0;
+    }
+}
+#agreen {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+#abhead, 
+#avision {
+    font-size: 2.5rem;
+    color: #67EE26;
+}
+.absmall {
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+    text-align: center;
+}
+.absmall small {
+    color: #0B4206;
+}
+
+.esmo {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 1rem ;
+    text-align: center;
+}
+.esmall {
+    font-size: large;
+    color: #67EE26;
+    opacity: .6;
+}
+.behead {
+    font-size: xx-large;
+    color: #0B4206;
+    text-align: center;
+}
+.ehead {
+    font-size: xx-large;
+    color: #0B4206;
+    text-align: center;
+}
+.ewrapper, #bewrapper {
+    width: 95%;
+    background-color: rgba(250,250,250, 0.0925);
+    padding: 2rem 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+#bewrapper {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.eule, #beule {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+    margin:0 auto;
+    width: 95%;
+    align-items: center;
+    align-content: center;
+}
+.small {
+    font-size: large;
+    margin: 5px;
+    color: #965B0E;
+}
+.belio h4{
+  color: #965B0E;
+  font-size: large;
+}
+.belio p {
+    color: #0B4206;
+    font-size: large;
+}
+.eli{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    min-height: 70vh;
+    border-radius: 20px;
+    text-align: center;
+    left: -20px;
+}
+.beli {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    min-height: 60vh;
+    text-align: center;
+    left: -20px;
+}
+.eima, .beima{
+    width: 90%;
+    margin: 0 auto;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px solid #0B4206;
+}
+.elink {
+   width: 80%;
+   margin: 0 auto;
+   position: relative;
+   padding: 1rem;
+   text-align: center;
+}
+.ebut {
+    background-color: #67EE26;
+    border-radius: 10px;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    font-size: larger;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #965B0E;
+}
+.efore {
+    color: #67EE26;
+    font-weight: 700;
+    font-size: x-large;
+}
+.eli p {
+  font-size: medium;
+  color: #0B4206;
+  font-weight: 600;
+}
+.cropsdetailslink {
+    background-color: #0B4206;
+    color: #67EE26;
+    padding: 7px 12px 12px 12px;
+    text-decoration: none;
+    font-size: larger;
+    border-radius: 20px;
+}
+#abwra h5 {
+    color: #0B4206;
+    font-size: larger;
+}
+.smowra {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.brown {
+    color: #67EE26;
+    font-size: large;
+}
+#abwra small{
+  color:#67EE26;
+  opacity: .6;
+  font-size: large;
+  opacity: .6;
+}
 @media  screen and (max-width:768px) {
     .become {
         width: 100%;

@@ -3,15 +3,16 @@ import Navbar from './Navbar'
 import FooterSection from './FooterSection'
 import './styles/become.css'
 import Approach from './Approach'
+import OurImpact from './OurImpact'
 
 function About() {
   return (
     <>
       <Navbar/>
-      <section className='become'>
+      <section className='become' id='about'>
           <div>
-             <h1 className='behead'>Our Story</h1>
-             <div className='smowra'>
+             <h1 className='behead' id='abhead'>Our Story</h1>
+             <div className='smowra absmall'>
                 <small className='small'>
                   Africa boasts a vibrant tapestry of food traditions, 
                   each with its own unique flavors and stories. But this rich heritage is under threat as 
@@ -24,9 +25,9 @@ function About() {
                   <strong> fulfilling </strong>
                 </small>
              </div>
-             <div className='bgreen'>
-                <h3 className='vision'>Our Vision</h3>
-                <div className='smowra'>
+             <div className='bgreen' id='agreen'>
+                <h3 className='vision' id='avision'>Our Vision</h3>
+                <div className='smowra' id='abwra'>
                   <h5 className='green'>
                     A thriving Africa where healthy food, environmental responsibility, 
                     and cultural heritage flourish together.
@@ -60,6 +61,7 @@ function About() {
           </div>
       </section>
       <Approach/>
+      <OurImpact/>
       <FooterSection/>
     </>
   )
