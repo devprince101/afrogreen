@@ -1,5 +1,129 @@
 #contact {
     width: 100%;
     background-color: #965B0E;
-    min-height: 80vh;
+    min-height: 95vh;
+    animation-name: shrink;
+    animation-duration: 4s;
+}
+@keyframes shrink {
+    from {
+        width: 1px;
+        transform: rotate(180deg);
+        margin: 0 auto;
+    }
+    to {
+        width: 1px;
+        transform: rotate(0deg);
+        margin: 0 auto;
+    }
+}
+
+.cowrapper {
+    margin: 0 auto;
+    padding: 1rem;
+    width: 80%;
+    min-height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cohe {
+    font-size: 3rem;
+    color: #67EE26;
+}
+.cocont {
+    width: 100%;
+    padding: 10px 0;
+    position: relative;
+    text-align: center;
+}
+.cocont .cosmall {
+    color: #67EE26;
+    opacity: .5;
+    font-size: x-large;
+    text-align: center;
+}
+.coima {
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    object-fit: cover;
+    border-radius: 10px;
+    border: solid 5px #0B4206;
+}
+.cogrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 10px;
+    align-items: center;
+    box-shadow: rgba(0,0,0,.125) 0px 8px 24px;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+.coheads {
+    width: 100%;
+    border-right: #67EE26 5px solid;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cohead {
+    color: #67EE26;
+    font-size: larger;
+    position: relative;
+    opacity: .7;
+    font-weight: 700;
+}
+.cooo {
+    font-size: small;
+    color: #67EE26;
+    opacity: .5;
+}
+.cogreet {
+    width: 90%;
+    padding: .5rem 1rem;
+    position: relative;
+    list-style: none;
+    display: block;
+    text-align: left;
+}
+.cogreet li {
+    color: #67EE26;
+    margin: 3px;
+    opacity: .5;
+}
+@media screen and (max-width:768px) {
+    #contact {
+        width: 100%;
+        margin: 0 auto;
+        text-align: left;
+    }
+    .cowrapper {
+        padding: 1rem 0;
+        width: 90%;
+    }
+    .coheads {
+        border-right: none;
+        width: 90%;
+        display: block;
+        text-align: left;
+        margin: 0 auto;
+    }
+    .cocont {
+        width: 90%;
+        padding: 10px 0;
+        margin: 0 auto;
+    }
+    .cogrid {
+        padding: 0;
+        box-shadow: none;
+    }
+    .coima {
+        display: none;
+    }
 }
