@@ -25,7 +25,7 @@ function FooterSection() {
                 <li className='lines'/>
             </ul>
             <div className='afrogreen'>
-                <h3>AfroGreen</h3>
+                <h3>AfroGreen Ltd</h3>
                 <p>&copy; AfroGreen Limited. All Right Reserved</p>
                 <img src={Logo} className='logo'/>
             </div>

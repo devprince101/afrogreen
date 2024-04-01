@@ -18,7 +18,7 @@ function Explore() {
         <h3 className='behead ehead'>Explore a World of Flavor and Sustainability</h3>
         <div className='bewrapper ewrapper'>
           <ul className='beule eule'>
-            <li className='beli eli'>
+            <li className='eli'>
                 <img className='beima eima' src={Cropone} alt='African crops: beans.' />
                 <h4 className='before efore'>Delicious, Nutritious Food:</h4>
                 <p>
@@ -27,7 +27,7 @@ function Explore() {
                 </p>
                 <Link to='/produce/crops' className='cropsdetailslink'>African crops</Link>
             </li>
-            <li className='beli eli'>
+            <li className='eli'>
                 <img className='beima eima' src={Croptwo} alt='Local Farmers.' />
                 <h4 className='before efore'>Empowering Local Farmers:</h4>
                 <p>
@@ -36,7 +36,7 @@ function Explore() {
                 </p>
                 <Link to='/supporting_farmers' className='cropsdetailslink'>Our support</Link>
             </li>
-            <li className='beli eli'>
+            <li className='eli'>
                 <img className='beima eima' src={Cropthree} alt='African crops: beans.' />
                 <h4 className='before efore'>Environmental Responsibility:</h4>
                 <p>

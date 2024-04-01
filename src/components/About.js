@@ -22,7 +22,7 @@ function About() {
                 <small className='small'>
                   AfroGreen was born out of a passion for preserving this legacy while ensuring a 
                   healthy and sustainable future for Africa. We believe that the answer lies in 
-                  <strong> fulfilling </strong>
+                  <strong> fulfilling.</strong>
                 </small>
              </div>
              <div className='bgreen' id='agreen'>
@@ -50,10 +50,10 @@ function About() {
                   </small>
                 </div>
              </div>
-             <div className='bgreen'>
-                <h3 className='vision'>Our Goal</h3>
+             <div className='bgreen' id='ourgoal'>
+                <h3 id='gree'>Our Goal</h3>
                 <div className='smowra'>
-                  <h5 className='green'>
+                  <h5 id='greeny'>
                   Our goal is becoming a leading force in sustainable agriculture across Africa, fostering a future where tradition meets innovation to create a more secure, nutritious, and culturally rich food system.
                   </h5>
                 </div>
